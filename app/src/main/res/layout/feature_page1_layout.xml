@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:contentDescription="@string/guide_page1_background_description"
+        android:id="@id/view_scroller"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/rent_feature_bg1" />
+
+    <LinearLayout
+        android:id="@id/scrolling_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|top"
+        android:layout_marginTop="@dimen/first_page_margin_top"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@id/feature_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="@string/guide_page1_background_description"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/rent_feature_title1" />
+
+        <LinearLayout
+            android:id="@id/feature_textview_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|top"
+            android:layout_marginTop="44dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@id/feature_content_bg1_row1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/guide_page1_content_row1"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fontSize"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/guide_page1_content_row2"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fontSize"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/guide_page1_content_row3"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fontSize"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/guide_page1_content_row4"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fontSize"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@id/feature_content_bg1_row5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="8dp"
+                android:text="@string/guide_page1_content_row5"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/fontSize"
+                android:visibility="visible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:contentDescription="@string/guide_page1_background_description"
+        android:id="@id/arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_marginBottom="20dp"
+        android:src="@mipmap/rent_feature_arrow" />
+</FrameLayout>
